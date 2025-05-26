@@ -42,3 +42,9 @@ AND TIME(`hour`) > '14:00'
 SELECT *
 FROM `degrees`
 WHERE `level`= 'magistrale'
+
+
+7- Da quanti dipartimenti è composta l'università?
+
+SELECT COUNT(*) AS `numero_dipartimenti`
+FROM `departments`
