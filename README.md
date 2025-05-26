@@ -35,3 +35,10 @@ SELECT *
 FROM `exams`
 WHERE DATE(`date`) = '2020-06-20'
 AND TIME(`hour`) > '14:00'
+
+
+6- Selezionare tutti i corsi di laurea magistrale
+
+SELECT *
+FROM `degrees`
+WHERE `level`= 'magistrale'
